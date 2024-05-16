@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+img {
+  width: 100%;
+  border-top-right-radius: .7rem;
+  border-top-left-radius: .7rem;
+}
+
+html, body {
+  padding: .8rem;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container .info{
+  margin-top: -.5rem;
+  display: grid;
+  row-gap: 1rem;
+  padding: 1rem;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.container .info .brand {
+  color: gray;
+  letter-spacing: 3px;
+}
+.container .info .name-brand {
+  font-size: 2.2rem;
+}
+.container .info p {
+  font-size: .888rem;
+  color: rgba(100, 100, 100, 1);
+  font-weight: lighter
+}
+.container .info .diskon-price {
+  display: flex;
+  align-items: center;
+  color: hsl(158, 36%, 37%);
+}
+
+.container .info .diskon-price .real-price {
+  margin-left: .8rem;
+  font-size: .677rem;
+  text-decoration: line-through;
+  color: rgba(100, 100, 100, 1);
+}
+
+.container .info button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 1.1rem 1.1rem;
+  border-radius: .8rem;
+}
+.container .info button i {
+  margin-right: .5rem;
+}
