@@ -14,8 +14,13 @@ img {
   border-top-left-radius: .7rem;
 }
 
+.container .desktop-img {
+  display: none;
+}
+
 html, body {
   padding: .8rem;
+  font-family: "Montserrat", sans-seri;
   background-color: hsl(30, 38%, 92%);
 }
 
@@ -26,10 +31,12 @@ html, body {
   padding: 1rem;
   background-color: white;
   margin-bottom: 3rem;
+  height: 100%;
 }
 
 .container .info .brand {
   color: gray;
+  font-weight: 500;
   letter-spacing: 3px;
 }
 .container .info .name-brand {
@@ -38,7 +45,6 @@ html, body {
 .container .info p {
   font-size: .888rem;
   color: rgba(100, 100, 100, 1);
-  font-weight: lighter
 }
 .container .info .diskon-price {
   display: flex;
@@ -64,4 +70,10 @@ html, body {
 }
 .container .info button i {
   margin-right: .5rem;
+}
+
+/* transform all font family */
+.container .info .name-brand,
+.container .info .diskon-price {
+  font-family: "Fraunces", serif;
 }

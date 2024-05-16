@@ -1,0 +1,33 @@
+@media (min-width: 1440px) {
+  html, body {
+    padding: 13rem 12rem;
+  }
+  
+  .container .mobile-img {
+    display: none;
+  }
+  
+  .container .desktop-img {
+    display: inline-block;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  
+  .container img {
+   border-top-right-radius: 0; 
+   border-bottom-left-radius: .7em; 
+  }
+  
+  .container .info {
+    row-gap: .4rem;
+    margin: 0;
+    padding: 3rem 2rem;
+    align-items: center;
+    border-top-right-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+  }
+}
